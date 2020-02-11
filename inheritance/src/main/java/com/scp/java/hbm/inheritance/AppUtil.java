@@ -18,7 +18,7 @@ public class AppUtil {
 		props.put(Environment.URL,"jdbc:mysql://localhost/jdbc");
 		props.put(Environment.DRIVER,"com.mysql.cj.jdbc.Driver");
 		props.put(Environment.USER,"root");
-		props.put(Environment.PASS,"Mysql@007");
+		props.put(Environment.PASS,"Mysql");
 		props.put(Environment.HBM2DDL_AUTO, "create");
 		props.put(Environment.SHOW_SQL, true);
 		return props;
